@@ -65,6 +65,18 @@ body {
     text-decoration: none;
 }
 
+/* Ensure the text inside btn-primary is vertically centered in the nav */
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary a {
+    display: block; 
+    color: inherit;
+}
+
 /* main part start from here  */
 .main-first-part {
     display: flex;
