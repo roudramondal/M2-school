@@ -8,7 +8,21 @@
     .nav-header {
         margin-bottom: 10px;
     }
+    /* heading part  */
+    .heading-part{
+        font-size: 32px;
+        font-weight: 700px;
+    }
+    /* content-part2 */
+    .content-part2{
+        font-size: 18px;
+        font-weight: 400px;
+        margin-top: 20px;
+        align-items: start;
+        justify-content: start;
+        
 
+    }
     .logo-icon,
     .btn-primary {
         gap: 5px;
@@ -20,6 +34,10 @@
         text-align: center;
         align-items: center;
         margin: 0 auto;
+    }
+    /* .btn-secondary */
+    .btn-secondary{
+        padding: 10px 20px;
     }
 
     /* main part start from here */
@@ -59,10 +77,12 @@
     /* main second part */
     .card-container {
         flex-direction: column;
+        gap: 15px;
     }
-
+    
     .arrow-icon {
         visibility: hidden;
+        margin-top: 0px;
     }
 
 
@@ -130,7 +150,11 @@
         line-height: 1.2;
     }
 
+    /*  button part start here */
+    .button-section-third {
+        margin-top: 30px;
 
+    }
 
     /* footer part start from here */
     .footer-parents {
